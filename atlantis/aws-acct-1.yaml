@@ -1,0 +1,11 @@
+version: 3
+projects:
+- name: dev
+  dir: ./environments/dev
+  terraform_version: v0.12.24
+- name: qa
+  dir: ./environments/qa
+  terraform_version: v0.12.24
+- name: stage
+  dir: ./environments/stage
+  terraform_version: v0.12.24

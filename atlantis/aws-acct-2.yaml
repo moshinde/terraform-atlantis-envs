@@ -1,0 +1,5 @@
+version: 3
+projects:
+  - name: prod
+    dir: ./environments/prod
+    terraform_version: v0.12.24
